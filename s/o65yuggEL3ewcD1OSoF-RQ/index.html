@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>부동산 데일리 · 부동산 데일리</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="masthead">
+      <a class="brand" href="index.html"><span class="brand-icon">▥</span> 부동산 데일리</a>
+      <nav aria-label="주 메뉴">
+        <a href="index.html">대시보드</a>
+        <a href="reports/">아카이브</a>
+        <a href="keywords.html">키워드</a>
+      </nav>
+    </header>
+    <main>
+<section class="intro"><p class="eyebrow">DAILY REAL ESTATE BRIEF</p><h1>오늘의 부동산 흐름</h1><p>서울과 전국의 실거래, 커뮤니티의 관심사를 한곳에서 확인하세요.</p></section>
+<section aria-label="최신 리포트" class="latest"><div class="report-grid">
+
+  <article class="report-card cafe">
+    <div class="card-heading">
+      <h2>카페 다이제스트</h2>
+      
+    </div>
+    
+    <div class="report-body"><p>리포트가 없습니다.</p></div>
+  </article>
+
+  <article class="report-card trades">
+    <div class="card-heading">
+      <h2>서울 실거래</h2>
+      <time datetime="2026-10-18T23:03:49.141467+09:00">2026-10-18 23:03 생성</time>
+    </div>
+    <div class="metric">0<span>신규 공개 거래</span></div>
+    <div class="report-body"><p>📊 신규 공개 거래 없음<br>
+2026-10-18 23:03 생성<br>
+※ 기준선은 2026-05부터 공개된 거래로 계산됨 (전체 이력 백필 전)<br>
+대상 구: 강남구<br>
+🔗 대시보드: https://coldclosewin-design.github.io/realestate-dashboard/s/o65yuggEL3ewcD1OSoF-RQ/</p></div>
+  </article>
+
+  <article class="report-card top5">
+    <div class="card-heading">
+      <h2>전국 TOP5</h2>
+      
+    </div>
+    
+    <div class="report-body"><p>리포트가 없습니다.</p></div>
+  </article>
+
+</div></section>
+<section class="trends"><div class="section-heading"><h2>숫자로 보는 추이</h2><span>최근 90일 · 시도별 14일</span></div>
+  <div class="chart-grid">
+    <article class="chart-card"><h3>일별 신규 공개 거래</h3><p>전국 TOP5 집계 · 서울 실거래 집계</p><div class="chart"><canvas id="new-trades" role="img" aria-label="전국과 서울 신규 공개 거래 추이"></canvas></div></article>
+    <article class="chart-card"><h3>신고가와 반등</h3><p>전국 기준선 완료 후 집계</p><div class="chart"><canvas id="high-rebound" role="img" aria-label="전국 신고가와 반등 추이"></canvas></div></article>
+    <article class="chart-card"><h3>커뮤니티 새 글</h3><p>카페 다이제스트 일별 신규 글 수</p><div class="chart"><canvas id="cafe-count" role="img" aria-label="카페 새 글 추이"></canvas></div></article>
+    <article class="chart-card"><h3>시도별 신규 공개</h3><p>최근 14일 · 전국 TOP5 집계</p><div class="chart"><canvas id="sido-count" role="img" aria-label="시도별 신규 공개 거래 스택 막대"></canvas></div></article>
+  </div>
+  <p id="chart-status" role="status"></p>
+</section>
+<section><div class="section-heading"><h2>최근 30일</h2><a href="reports/">전체 아카이브 →</a></div>
+  <div class="date-list"><a href="reports/2026-10-18.html">2026-10-18 <span>리포트 →</span></a></div>
+</section>
+</main>
+    <footer>공개 실거래 · 공개 카페 제목 기반 / 모든 시각 KST</footer>
+  </div>
+  
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.9/dist/chart.umd.min.js"></script>
+<script>
+(async () => {
+  const status = document.getElementById('chart-status');
+  try {
+    if (!window.Chart) throw new Error('chart unavailable');
+    const response = await fetch('data.json');
+    if (!response.ok) throw new Error('data unavailable');
+    const data = await response.json();
+    const recorded = [...new Set(Object.values(data).flat().map(row => row.date))].sort();
+    if (!recorded.length) { status.textContent = '차트 데이터가 아직 없습니다.'; return; }
+    const end = new Date(recorded.at(-1) + 'T00:00:00Z');
+    const start = new Date(recorded[0] + 'T00:00:00Z');
+    const dates = [];
+    for (let day = start; day <= end; day.setUTCDate(day.getUTCDate() + 1)) dates.push(day.toISOString().slice(0, 10));
+    const series = (kind, field, days = dates) => days.map(day => data[kind].find(row => row.date === day)?.[field] ?? null);
+    const colors = ['#4f8df7', '#20bfa9', '#a78bfa', '#f6b45e', '#eb7a96', '#70b7d2', '#b2bd64', '#c39064', '#7c9aee', '#a9a5a0', '#60ad88', '#ce93d8', '#e5bd44', '#5f8b9b', '#c58484', '#869c55', '#af8ee3'];
+    const text = getComputedStyle(document.body).getPropertyValue('--muted').trim();
+    Chart.defaults.color = text;
+    Chart.defaults.font.family = 'system-ui, sans-serif';
+    const dataset = (label, values, color) => ({label, data: values, borderColor: color, backgroundColor: color, borderWidth: 2, pointRadius: 2, tension: 0.2});
+    const draw = (id, type, labels, datasets, stacked = false) => new Chart(document.getElementById(id), {
+      type, data: {labels, datasets}, options: {responsive: true, maintainAspectRatio: false, animation: false,
+        interaction: {mode: 'index', intersect: false},
+        plugins: {legend: {position: 'bottom', labels: {boxWidth: 10, usePointStyle: true}}},
+        scales: {x: {stacked, grid: {display: false}, ticks: {maxTicksLimit: 6, callback: function(value) {return this.getLabelForValue(value).slice(5);}}}, y: {stacked, beginAtZero: true, ticks: {precision: 0}}}}
+    });
+    draw('new-trades', 'line', dates, [dataset('전국', series('top5', 'new_count'), colors[0]), dataset('서울', series('trades', 'new_count'), colors[1])]);
+    const baseline = field => dates.map(day => {const row = data.top5.find(row => row.date === day); return row?.baseline_complete ? row[field] : null;});
+    draw('high-rebound', 'line', dates, [dataset('신고가', baseline('new_high_count'), colors[2]), dataset('반등', baseline('rebound_count'), colors[3])]);
+    draw('cafe-count', 'line', dates, [dataset('새 글', series('cafe', 'new_count'), colors[1])]);
+    const days = dates.slice(-14);
+    const names = [...new Set(data.top5.filter(row => days.includes(row.date)).flatMap(row => Object.keys(row.counts_by_sido)))].sort();
+    draw('sido-count', 'bar', days, names.map((name, i) => dataset(name, days.map(day => {const row = data.top5.find(row => row.date === day); return row ? row.counts_by_sido[name] ?? 0 : null;}), colors[i % colors.length])), true);
+  } catch {
+    status.textContent = '차트를 불러오지 못했습니다. 리포트와 아카이브는 계속 확인할 수 있습니다.';
+  }
+})();
+</script>
+
+</body>
+</html>
