@@ -52,13 +52,13 @@
   },
   "trades": {
     "kind": "trades",
-    "date": "2026-10-21",
-    "generated_at": "2026-10-21T10:32:48.037267+09:00",
+    "date": "2026-10-22",
+    "generated_at": "2026-10-22T10:29:06.178811+09:00",
     "sent_messages": 2,
     "new_count": 6,
-    "new_high_count": 0,
-    "cancelled_count": 1,
-    "first_trade_count": 0,
+    "new_high_count": 1,
+    "cancelled_count": 0,
+    "first_trade_count": 1,
     "folded_months": [],
     "coverage_from": "202605",
     "districts": {
