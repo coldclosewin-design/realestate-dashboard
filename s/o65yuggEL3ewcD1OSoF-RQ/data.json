@@ -308,6 +308,47 @@
       },
       "presale_new_high_count": 0,
       "rent_new_high_count": 0
+    },
+    {
+      "kind": "top5",
+      "date": "2026-10-22",
+      "generated_at": "2026-10-22T10:32:26.328270+09:00",
+      "sent_messages": 1,
+      "new_count": 3483,
+      "counts_by_sido": {
+        "경기": 1221,
+        "서울": 361,
+        "부산": 240,
+        "경남": 224,
+        "전남광주": 216,
+        "인천": 200,
+        "충남": 156,
+        "경북": 143,
+        "대구": 142,
+        "충북": 125,
+        "전북": 112,
+        "대전": 111,
+        "울산": 92,
+        "강원": 83,
+        "세종": 44,
+        "제주": 13
+      },
+      "rebound_count": 0,
+      "new_high_count": 0,
+      "first_trade_count": 0,
+      "baseline_complete": false,
+      "top1": {
+        "sgg_cd": "11650",
+        "sido_short": "서울",
+        "sigungu": "서초구",
+        "apt_nm": "래미안원베일리",
+        "exclu_use_ar": 133.95,
+        "floor": 22,
+        "deal_amount_manwon": 1200000,
+        "deal_date": "2026-09-22"
+      },
+      "presale_new_high_count": 0,
+      "rent_new_high_count": 0
     }
   ]
 }
