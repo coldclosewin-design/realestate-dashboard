@@ -415,6 +415,47 @@
       },
       "presale_new_high_count": 0,
       "rent_new_high_count": 0
+    },
+    {
+      "kind": "top5",
+      "date": "2026-10-23",
+      "generated_at": "2026-10-23T10:32:45.878693+09:00",
+      "sent_messages": 1,
+      "new_count": 1435,
+      "counts_by_sido": {
+        "경기": 463,
+        "서울": 154,
+        "전남광주": 111,
+        "경남": 101,
+        "인천": 90,
+        "부산": 88,
+        "충남": 70,
+        "대구": 54,
+        "경북": 54,
+        "충북": 52,
+        "강원": 50,
+        "전북": 44,
+        "대전": 43,
+        "울산": 33,
+        "세종": 20,
+        "제주": 8
+      },
+      "rebound_count": 0,
+      "new_high_count": 0,
+      "first_trade_count": 0,
+      "baseline_complete": false,
+      "top1": {
+        "sgg_cd": "11680",
+        "sido_short": "서울",
+        "sigungu": "강남구",
+        "apt_nm": "신현대12차",
+        "exclu_use_ar": 182.95,
+        "floor": 6,
+        "deal_amount_manwon": 920000,
+        "deal_date": "2026-10-21"
+      },
+      "presale_new_high_count": 0,
+      "rent_new_high_count": 0
     }
   ]
 }
