@@ -882,6 +882,47 @@
       },
       "presale_new_high_count": 0,
       "rent_new_high_count": 0
+    },
+    {
+      "kind": "top5",
+      "date": "2026-10-28",
+      "generated_at": "2026-10-28T11:17:21.743906+09:00",
+      "sent_messages": 2,
+      "new_count": 1879,
+      "counts_by_sido": {
+        "경기": 650,
+        "서울": 186,
+        "부산": 134,
+        "경남": 111,
+        "충남": 106,
+        "전남광주": 104,
+        "인천": 94,
+        "경북": 83,
+        "대전": 69,
+        "대구": 64,
+        "세종": 60,
+        "전북": 55,
+        "강원": 54,
+        "충북": 48,
+        "울산": 46,
+        "제주": 15
+      },
+      "rebound_count": 803,
+      "new_high_count": 189,
+      "first_trade_count": 10,
+      "baseline_complete": true,
+      "top1": {
+        "sgg_cd": "11170",
+        "sido_short": "서울",
+        "sigungu": "용산구",
+        "apt_nm": "리버힐에이동",
+        "exclu_use_ar": 144.42,
+        "floor": 2,
+        "deal_amount_manwon": 600000,
+        "deal_date": "2026-09-30"
+      },
+      "presale_new_high_count": 0,
+      "rent_new_high_count": 0
     }
   ]
 }
