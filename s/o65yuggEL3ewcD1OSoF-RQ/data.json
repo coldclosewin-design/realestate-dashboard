@@ -829,6 +829,21 @@
       "districts": {
         "강남구": 6
       }
+    },
+    {
+      "kind": "trades",
+      "date": "2026-10-31",
+      "generated_at": "2026-10-31T11:20:12.129874+09:00",
+      "sent_messages": 3,
+      "new_count": 10,
+      "new_high_count": 1,
+      "cancelled_count": 1,
+      "first_trade_count": 2,
+      "folded_months": [],
+      "coverage_from": "202605",
+      "districts": {
+        "강남구": 10
+      }
     }
   ],
   "top5": [
