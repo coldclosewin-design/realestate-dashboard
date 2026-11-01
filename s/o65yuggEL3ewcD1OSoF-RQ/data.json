@@ -1312,6 +1312,35 @@
       },
       "presale_new_high_count": 0,
       "rent_new_high_count": 0
+    },
+    {
+      "kind": "top5",
+      "date": "2026-11-01",
+      "generated_at": "2026-11-01T11:14:55.191005+09:00",
+      "sent_messages": 2,
+      "new_count": 33,
+      "counts_by_sido": {
+        "경기": 29,
+        "서울": 2,
+        "부산": 1,
+        "충북": 1
+      },
+      "rebound_count": 17,
+      "new_high_count": 9,
+      "first_trade_count": 0,
+      "baseline_complete": true,
+      "top1": {
+        "sgg_cd": "41131",
+        "sido_short": "경기",
+        "sigungu": "성남시 수정구",
+        "apt_nm": "위례호반써밋에비뉴",
+        "exclu_use_ar": 98.95,
+        "floor": 6,
+        "deal_amount_manwon": 186000,
+        "deal_date": "2026-10-24"
+      },
+      "presale_new_high_count": 0,
+      "rent_new_high_count": 0
     }
   ]
 }
