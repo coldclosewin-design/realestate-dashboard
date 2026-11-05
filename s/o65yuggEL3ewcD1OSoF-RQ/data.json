@@ -1701,6 +1701,47 @@
       },
       "presale_new_high_count": 0,
       "rent_new_high_count": 0
+    },
+    {
+      "kind": "top5",
+      "date": "2026-11-05",
+      "generated_at": "2026-11-05T12:30:35.905509+09:00",
+      "sent_messages": 2,
+      "new_count": 1494,
+      "counts_by_sido": {
+        "경기": 477,
+        "서울": 168,
+        "경남": 109,
+        "부산": 105,
+        "전남광주": 97,
+        "인천": 96,
+        "충남": 73,
+        "대구": 68,
+        "충북": 53,
+        "경북": 53,
+        "전북": 50,
+        "대전": 49,
+        "강원": 43,
+        "울산": 25,
+        "세종": 22,
+        "제주": 6
+      },
+      "rebound_count": 615,
+      "new_high_count": 156,
+      "first_trade_count": 8,
+      "baseline_complete": true,
+      "top1": {
+        "sgg_cd": "11680",
+        "sido_short": "서울",
+        "sigungu": "강남구",
+        "apt_nm": "현대14차(203,204,205,206동)",
+        "exclu_use_ar": 84.98,
+        "floor": 6,
+        "deal_amount_manwon": 510000,
+        "deal_date": "2026-10-29"
+      },
+      "presale_new_high_count": 16,
+      "rent_new_high_count": 128
     }
   ]
 }
