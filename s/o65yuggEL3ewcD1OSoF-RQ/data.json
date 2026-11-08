@@ -2022,6 +2022,34 @@
       },
       "presale_new_high_count": 13,
       "rent_new_high_count": 116
+    },
+    {
+      "kind": "top5",
+      "date": "2026-11-08",
+      "generated_at": "2026-11-08T11:30:25.475605+09:00",
+      "sent_messages": 2,
+      "new_count": 39,
+      "counts_by_sido": {
+        "경기": 37,
+        "경남": 1,
+        "강원": 1
+      },
+      "rebound_count": 21,
+      "new_high_count": 15,
+      "first_trade_count": 1,
+      "baseline_complete": true,
+      "top1": {
+        "sgg_cd": "41290",
+        "sido_short": "경기",
+        "sigungu": "과천시",
+        "apt_nm": "주공8",
+        "exclu_use_ar": 83.2,
+        "floor": 11,
+        "deal_amount_manwon": 280000,
+        "deal_date": "2026-10-28"
+      },
+      "presale_new_high_count": 8,
+      "rent_new_high_count": 24
     }
   ]
 }
