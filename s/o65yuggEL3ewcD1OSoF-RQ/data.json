@@ -2116,6 +2116,36 @@
       },
       "presale_new_high_count": 8,
       "rent_new_high_count": 24
+    },
+    {
+      "kind": "top5",
+      "date": "2026-11-09",
+      "generated_at": "2026-11-09T11:40:30.932607+09:00",
+      "sent_messages": 2,
+      "new_count": 72,
+      "counts_by_sido": {
+        "경기": 39,
+        "서울": 29,
+        "부산": 2,
+        "인천": 1,
+        "충북": 1
+      },
+      "rebound_count": 34,
+      "new_high_count": 21,
+      "first_trade_count": 0,
+      "baseline_complete": true,
+      "top1": {
+        "sgg_cd": "11470",
+        "sido_short": "서울",
+        "sigungu": "양천구",
+        "apt_nm": "현대하이페리온",
+        "exclu_use_ar": 154.05,
+        "floor": 40,
+        "deal_amount_manwon": 400000,
+        "deal_date": "2026-10-19"
+      },
+      "presale_new_high_count": 0,
+      "rent_new_high_count": 22
     }
   ]
 }

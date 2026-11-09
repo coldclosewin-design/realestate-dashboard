@@ -67,30 +67,32 @@
   },
   "top5": {
     "kind": "top5",
-    "date": "2026-11-08",
-    "generated_at": "2026-11-08T11:30:25.475605+09:00",
+    "date": "2026-11-09",
+    "generated_at": "2026-11-09T11:40:30.932607+09:00",
     "sent_messages": 2,
-    "new_count": 39,
+    "new_count": 72,
     "counts_by_sido": {
-      "경기": 37,
-      "경남": 1,
-      "강원": 1
+      "경기": 39,
+      "서울": 29,
+      "부산": 2,
+      "인천": 1,
+      "충북": 1
     },
-    "rebound_count": 21,
-    "new_high_count": 15,
-    "first_trade_count": 1,
+    "rebound_count": 34,
+    "new_high_count": 21,
+    "first_trade_count": 0,
     "baseline_complete": true,
     "top1": {
-      "sgg_cd": "41290",
-      "sido_short": "경기",
-      "sigungu": "과천시",
-      "apt_nm": "주공8",
-      "exclu_use_ar": 83.2,
-      "floor": 11,
-      "deal_amount_manwon": 280000,
-      "deal_date": "2026-10-28"
+      "sgg_cd": "11470",
+      "sido_short": "서울",
+      "sigungu": "양천구",
+      "apt_nm": "현대하이페리온",
+      "exclu_use_ar": 154.05,
+      "floor": 40,
+      "deal_amount_manwon": 400000,
+      "deal_date": "2026-10-19"
     },
-    "presale_new_high_count": 8,
-    "rent_new_high_count": 24
+    "presale_new_high_count": 0,
+    "rent_new_high_count": 22
   }
 }
