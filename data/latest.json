@@ -67,32 +67,43 @@
   },
   "top5": {
     "kind": "top5",
-    "date": "2026-11-09",
-    "generated_at": "2026-11-09T11:40:30.932607+09:00",
+    "date": "2026-11-10",
+    "generated_at": "2026-11-10T13:38:27.487958+09:00",
     "sent_messages": 2,
-    "new_count": 72,
+    "new_count": 2857,
     "counts_by_sido": {
-      "경기": 39,
-      "서울": 29,
-      "부산": 2,
-      "인천": 1,
-      "충북": 1
+      "경기": 946,
+      "서울": 226,
+      "부산": 207,
+      "전남광주": 197,
+      "경남": 174,
+      "인천": 173,
+      "충남": 157,
+      "대구": 156,
+      "경북": 108,
+      "충북": 104,
+      "전북": 98,
+      "대전": 95,
+      "강원": 95,
+      "세종": 59,
+      "울산": 50,
+      "제주": 12
     },
-    "rebound_count": 34,
-    "new_high_count": 21,
-    "first_trade_count": 0,
+    "rebound_count": 1215,
+    "new_high_count": 279,
+    "first_trade_count": 11,
     "baseline_complete": true,
     "top1": {
-      "sgg_cd": "11470",
+      "sgg_cd": "11170",
       "sido_short": "서울",
-      "sigungu": "양천구",
-      "apt_nm": "현대하이페리온",
-      "exclu_use_ar": 154.05,
-      "floor": 40,
-      "deal_amount_manwon": 400000,
-      "deal_date": "2026-10-19"
+      "sigungu": "용산구",
+      "apt_nm": "센트럴파크",
+      "exclu_use_ar": 135.3849,
+      "floor": 28,
+      "deal_amount_manwon": 533000,
+      "deal_date": "2026-10-16"
     },
-    "presale_new_high_count": 0,
-    "rent_new_high_count": 22
+    "presale_new_high_count": 25,
+    "rent_new_high_count": 222
   }
 }
