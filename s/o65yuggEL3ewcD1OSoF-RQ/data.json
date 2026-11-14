@@ -2640,6 +2640,47 @@
       },
       "presale_new_high_count": 24,
       "rent_new_high_count": 97
+    },
+    {
+      "kind": "top5",
+      "date": "2026-11-14",
+      "generated_at": "2026-11-14T12:17:37.719907+09:00",
+      "sent_messages": 2,
+      "new_count": 1333,
+      "counts_by_sido": {
+        "경기": 443,
+        "서울": 153,
+        "인천": 86,
+        "경남": 79,
+        "부산": 75,
+        "전남광주": 74,
+        "경북": 71,
+        "충북": 55,
+        "강원": 54,
+        "대구": 49,
+        "울산": 45,
+        "충남": 42,
+        "전북": 38,
+        "대전": 36,
+        "세종": 22,
+        "제주": 11
+      },
+      "rebound_count": 574,
+      "new_high_count": 157,
+      "first_trade_count": 7,
+      "baseline_complete": true,
+      "top1": {
+        "sgg_cd": "11680",
+        "sido_short": "서울",
+        "sigungu": "강남구",
+        "apt_nm": "현대8차(성수현대:91~95동)",
+        "exclu_use_ar": 163.67,
+        "floor": 12,
+        "deal_amount_manwon": 715000,
+        "deal_date": "2026-10-17"
+      },
+      "presale_new_high_count": 10,
+      "rent_new_high_count": 104
     }
   ]
 }
