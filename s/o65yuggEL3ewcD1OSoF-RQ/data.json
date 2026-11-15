@@ -2747,6 +2747,35 @@
       },
       "presale_new_high_count": 10,
       "rent_new_high_count": 104
+    },
+    {
+      "kind": "top5",
+      "date": "2026-11-15",
+      "generated_at": "2026-11-15T11:40:44.906105+09:00",
+      "sent_messages": 2,
+      "new_count": 14,
+      "counts_by_sido": {
+        "서울": 6,
+        "부산": 3,
+        "경기": 3,
+        "경남": 2
+      },
+      "rebound_count": 11,
+      "new_high_count": 4,
+      "first_trade_count": 0,
+      "baseline_complete": true,
+      "top1": {
+        "sgg_cd": "11380",
+        "sido_short": "서울",
+        "sigungu": "은평구",
+        "apt_nm": "DMCSK뷰아이파크포레",
+        "exclu_use_ar": 84.95,
+        "floor": 15,
+        "deal_amount_manwon": 142500,
+        "deal_date": "2026-11-07"
+      },
+      "presale_new_high_count": 0,
+      "rent_new_high_count": 22
     }
   ]
 }
