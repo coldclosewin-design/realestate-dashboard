@@ -2842,6 +2842,33 @@
       },
       "presale_new_high_count": 0,
       "rent_new_high_count": 22
+    },
+    {
+      "kind": "top5",
+      "date": "2026-11-16",
+      "generated_at": "2026-11-16T11:44:41.521711+09:00",
+      "sent_messages": 2,
+      "new_count": 55,
+      "counts_by_sido": {
+        "경기": 49,
+        "충남": 6
+      },
+      "rebound_count": 18,
+      "new_high_count": 14,
+      "first_trade_count": 0,
+      "baseline_complete": true,
+      "top1": {
+        "sgg_cd": "41465",
+        "sido_short": "경기",
+        "sigungu": "용인시 수지구",
+        "apt_nm": "e편한세상수지",
+        "exclu_use_ar": 84.921,
+        "floor": 21,
+        "deal_amount_manwon": 177700,
+        "deal_date": "2026-10-31"
+      },
+      "presale_new_high_count": 0,
+      "rent_new_high_count": 31
     }
   ]
 }
