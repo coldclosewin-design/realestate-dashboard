@@ -3256,6 +3256,47 @@
       },
       "presale_new_high_count": 14,
       "rent_new_high_count": 119
+    },
+    {
+      "kind": "top5",
+      "date": "2026-11-20",
+      "generated_at": "2026-11-20T12:59:11.040514+09:00",
+      "sent_messages": 2,
+      "new_count": 1388,
+      "counts_by_sido": {
+        "경기": 412,
+        "서울": 212,
+        "부산": 94,
+        "전남광주": 85,
+        "경남": 78,
+        "인천": 76,
+        "충북": 63,
+        "충남": 58,
+        "대전": 54,
+        "경북": 52,
+        "대구": 44,
+        "전북": 44,
+        "강원": 41,
+        "울산": 40,
+        "세종": 27,
+        "제주": 8
+      },
+      "rebound_count": 599,
+      "new_high_count": 171,
+      "first_trade_count": 9,
+      "baseline_complete": true,
+      "top1": {
+        "sgg_cd": "11650",
+        "sido_short": "서울",
+        "sigungu": "서초구",
+        "apt_nm": "반포센트럴자이",
+        "exclu_use_ar": 84.98,
+        "floor": 10,
+        "deal_amount_manwon": 450000,
+        "deal_date": "2026-11-16"
+      },
+      "presale_new_high_count": 18,
+      "rent_new_high_count": 96
     }
   ]
 }
