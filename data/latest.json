@@ -52,17 +52,17 @@
   },
   "trades": {
     "kind": "trades",
-    "date": "2026-11-19",
-    "generated_at": "2026-11-19T13:09:09.810074+09:00",
+    "date": "2026-11-20",
+    "generated_at": "2026-11-20T12:58:20.773134+09:00",
     "sent_messages": 2,
-    "new_count": 13,
-    "new_high_count": 3,
+    "new_count": 6,
+    "new_high_count": 1,
     "cancelled_count": 0,
-    "first_trade_count": 2,
+    "first_trade_count": 1,
     "folded_months": [],
     "coverage_from": "202605",
     "districts": {
-      "강남구": 13
+      "강남구": 6
     }
   },
   "top5": {
