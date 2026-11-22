@@ -3470,6 +3470,34 @@
       },
       "presale_new_high_count": 17,
       "rent_new_high_count": 89
+    },
+    {
+      "kind": "top5",
+      "date": "2026-11-22",
+      "generated_at": "2026-11-22T12:12:11.227303+09:00",
+      "sent_messages": 1,
+      "new_count": 9,
+      "counts_by_sido": {
+        "경기": 6,
+        "서울": 2,
+        "충북": 1
+      },
+      "rebound_count": 5,
+      "new_high_count": 2,
+      "first_trade_count": 0,
+      "baseline_complete": true,
+      "top1": {
+        "sgg_cd": "11560",
+        "sido_short": "서울",
+        "sigungu": "영등포구",
+        "apt_nm": "당산푸르지오",
+        "exclu_use_ar": 84.98,
+        "floor": 14,
+        "deal_amount_manwon": 187000,
+        "deal_date": "2026-11-11"
+      },
+      "presale_new_high_count": 0,
+      "rent_new_high_count": 24
     }
   ]
 }
