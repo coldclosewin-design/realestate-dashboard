@@ -3564,6 +3564,34 @@
       },
       "presale_new_high_count": 0,
       "rent_new_high_count": 24
+    },
+    {
+      "kind": "top5",
+      "date": "2026-11-23",
+      "generated_at": "2026-11-23T12:43:58.604174+09:00",
+      "sent_messages": 2,
+      "new_count": 51,
+      "counts_by_sido": {
+        "경기": 45,
+        "서울": 5,
+        "경북": 1
+      },
+      "rebound_count": 25,
+      "new_high_count": 18,
+      "first_trade_count": 0,
+      "baseline_complete": true,
+      "top1": {
+        "sgg_cd": "11710",
+        "sido_short": "서울",
+        "sigungu": "송파구",
+        "apt_nm": "올림픽선수기자촌1단지",
+        "exclu_use_ar": 83.06,
+        "floor": 15,
+        "deal_amount_manwon": 276000,
+        "deal_date": "2026-11-14"
+      },
+      "presale_new_high_count": 0,
+      "rent_new_high_count": 25
     }
   ]
 }

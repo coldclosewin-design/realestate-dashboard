@@ -67,30 +67,30 @@
   },
   "top5": {
     "kind": "top5",
-    "date": "2026-11-22",
-    "generated_at": "2026-11-22T12:12:11.227303+09:00",
-    "sent_messages": 1,
-    "new_count": 9,
+    "date": "2026-11-23",
+    "generated_at": "2026-11-23T12:43:58.604174+09:00",
+    "sent_messages": 2,
+    "new_count": 51,
     "counts_by_sido": {
-      "경기": 6,
-      "서울": 2,
-      "충북": 1
+      "경기": 45,
+      "서울": 5,
+      "경북": 1
     },
-    "rebound_count": 5,
-    "new_high_count": 2,
+    "rebound_count": 25,
+    "new_high_count": 18,
     "first_trade_count": 0,
     "baseline_complete": true,
     "top1": {
-      "sgg_cd": "11560",
+      "sgg_cd": "11710",
       "sido_short": "서울",
-      "sigungu": "영등포구",
-      "apt_nm": "당산푸르지오",
-      "exclu_use_ar": 84.98,
-      "floor": 14,
-      "deal_amount_manwon": 187000,
-      "deal_date": "2026-11-11"
+      "sigungu": "송파구",
+      "apt_nm": "올림픽선수기자촌1단지",
+      "exclu_use_ar": 83.06,
+      "floor": 15,
+      "deal_amount_manwon": 276000,
+      "deal_date": "2026-11-14"
     },
     "presale_new_high_count": 0,
-    "rent_new_high_count": 24
+    "rent_new_high_count": 25
   }
 }
