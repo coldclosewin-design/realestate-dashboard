@@ -3765,6 +3765,47 @@
       },
       "presale_new_high_count": 23,
       "rent_new_high_count": 131
+    },
+    {
+      "kind": "top5",
+      "date": "2026-11-25",
+      "generated_at": "2026-11-25T14:27:30.744492+09:00",
+      "sent_messages": 2,
+      "new_count": 1531,
+      "counts_by_sido": {
+        "경기": 540,
+        "서울": 184,
+        "경남": 117,
+        "인천": 91,
+        "전남광주": 86,
+        "충남": 79,
+        "부산": 68,
+        "강원": 58,
+        "충북": 56,
+        "대구": 55,
+        "대전": 52,
+        "경북": 46,
+        "세종": 37,
+        "전북": 35,
+        "울산": 23,
+        "제주": 4
+      },
+      "rebound_count": 652,
+      "new_high_count": 180,
+      "first_trade_count": 6,
+      "baseline_complete": true,
+      "top1": {
+        "sgg_cd": "11170",
+        "sido_short": "서울",
+        "sigungu": "용산구",
+        "apt_nm": "한남더힐",
+        "exclu_use_ar": 208.478,
+        "floor": 5,
+        "deal_amount_manwon": 1375000,
+        "deal_date": "2026-11-10"
+      },
+      "presale_new_high_count": 24,
+      "rent_new_high_count": 67
     }
   ]
 }
